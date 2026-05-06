@@ -1,28 +1,73 @@
-function calculateCartPrice(val1, val2, ...num1 ) {
-    return num1 
+
+function sayMyName(){
+ console.log("N");
+ console.log("E");
+ console.log("E");
+ console.log(" L");    
+ console.log("A" );
+ console.log("M");
+} 
+
+
+
+//sayMyName(); //
+   
+
+function addTwoNumbers(num1, num2){
+    console.log(num1 + num2);
 }
 
-console.log(calculateCartPrice(100,200,500)); 
+addTwoNumbers(3, 4); // 7
+addTwoNumbers(10, 20); // 30
+addTwoNumbers(100, 200); // 300
 
-
-const user = {
-   username: "Hitesh Choudhary",
-    Price: 30,
-    
-};
- 
-function handleObject(obj) {
-    console.log(obj.username); // Accessing the username property of the object
-    console.log(obj.Price); // Accessing the Price property of the object
+function multiplyTwoNumbers(num1, num2){
+    console.log(num1 * num2);
 }
 
-handleObject(user); // Passing the user object to the function  
+multiplyTwoNumbers(3, 4); // 12
+multiplyTwoNumbers(10, 20); // 200
+multiplyTwoNumbers(100, 200); // 20000  
 
-const myNewArray = [1, 2, 3, 4, 5];
-
-function returnSecondValue(getArray) {
-    return getArray[1]; // Accessing the second element of the array (index 1)
+function login(username, password){
+    if(username === "admin" && password === "1234"){
+        console.log("Login successful");
+    } else {
+        console.log("Login failed");
+    }
 }
 
-console.log(returnSecondValue(myNewArray)); // Output: 2
+login("admin", "1234"); // Login successful
+login("admin", "wrongpassword"); // Login failed
+login("user", "1234"); // Login failed  
+
+
+////********************function2***************** *//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
