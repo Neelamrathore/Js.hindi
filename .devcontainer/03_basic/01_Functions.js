@@ -44,7 +44,33 @@ login("user", "1234"); // Login failed
 
 ////********************function2***************** *//
 
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
 
+}
+ console.log(calculateCartPrice(100,200,300)); // 100
+
+ const user = {
+    username: "John",
+    price : 100,
+ }
+
+ function hqndleObject(anyobject){
+    console.log('Username: ' + anyobject.username);
+    console.log('Price: ' + anyobject.price);           
+
+
+ }
+hqndleObject(user); // Username: John Price: 100
+
+
+const myNewArray = [200, 300, 400, 500];
+
+function returnSecondValue(getArray){
+    return getArray[1];
+
+}
+console.log(returnSecondValue(myNewArray)); // 300
 
 
 
